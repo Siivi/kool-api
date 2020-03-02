@@ -1,0 +1,46 @@
+#movies{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 3em 2em;
+    padding: 1em;
+    background-image: url('https://i.imgur.com/l62QPq4.jpg');
+}
+body{
+    margin: 0em;
+    
+ 
+}
+img {
+    width: 80%;
+    height: auto;
+}
+
+.movie{
+    border-style: ridge;
+    border-radius: 20px;
+    
+
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    color: mintcream;
+    background-color: rgb(223, 15, 223);
+    border-radius: 30px;
+    padding: 15px;
+}
+.title:hover{
+    background-color: darkmagenta;
+    border-radius: 30px;
+
+}
+
+.description{
+    font-family: 'Lacquer', sans-serif;
+    font-size: 1.2em;
+    padding: 5px;
+    
+
+}
